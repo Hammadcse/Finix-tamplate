@@ -1,0 +1,41 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?fbdac1b23fe3e4619278570c94033279") format("truetype"),
+url("./flaticon.woff?fbdac1b23fe3e4619278570c94033279") format("woff"),
+url("./flaticon.woff2?fbdac1b23fe3e4619278570c94033279") format("woff2"),
+url("./flaticon.eot?fbdac1b23fe3e4619278570c94033279#iefix") format("embedded-opentype"),
+url("./flaticon.svg?fbdac1b23fe3e4619278570c94033279#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "guarantee": "\f101",
+    "user-experience": "\f102",
+    "reliability": "\f103",
+    "speed": "\f104",
+);
+
+.flaticon-guarantee:before {
+    content: map-get($flaticon-map, "guarantee");
+}
+.flaticon-user-experience:before {
+    content: map-get($flaticon-map, "user-experience");
+}
+.flaticon-reliability:before {
+    content: map-get($flaticon-map, "reliability");
+}
+.flaticon-speed:before {
+    content: map-get($flaticon-map, "speed");
+}
