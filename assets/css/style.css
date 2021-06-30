@@ -1258,5 +1258,26 @@ ul.team-social li a {
     color: #e73c3e !important;
 }
 
+.back_to_top a {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #111;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 30px;
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+}
+
+a {}
+
+.back_to_top a:hover {
+    background: #e73c3e;
+    transform: translateY(-10px);
+}
+
 
 /* Footer section ends */
