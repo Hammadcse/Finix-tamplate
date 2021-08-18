@@ -1,0 +1,434 @@
+@media (max-width: 1259px) {
+    .header-call {
+        display: none !important;
+    }
+    .header-btn .btn-primary {
+        padding: 1rem 1.5rem;
+        font-size: 1.1rem;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .arrowChange,
+    .arrowChange2,
+    .arrowChange3,
+    .arrowChange4 {
+        float: right;
+    }
+    .submenu,
+    .submenu2,
+    .multi-drop,
+    .submenu3 {
+        display: none;
+        opacity: 1 !important;
+        visibility: visible !important;
+        position: relative !important;
+        transition: none !important;
+        left: 0 !important;
+        width: 100% !important;
+        padding: 0 !important;
+        border: none !important;
+        overflow-y: scroll;
+        height: auto;
+        top: 0 !important;
+    }
+    .submenu li a,
+    .submenu2 li a,
+    .submenu3 li a {
+        margin-left: 5rem !important;
+    }
+    .multi-drop li a {
+        margin-left: 10rem !important;
+    }
+    .navigation {
+        display: none;
+        overflow: hidden;
+        position: fixed;
+        left: 1.5rem;
+        top: 73px;
+        right: 1.2rem;
+    }
+    ul.primary-menu li a {
+        transition: .3s all ease-in-out;
+        border-bottom: .1rem solid #dbeefd;
+        padding-top: 1.6rem;
+        padding-bottom: 1.6rem;
+        padding-left: 2rem !important;
+    }
+    .primary-menu {
+        border-top: .1rem solid #dbeefd;
+        overflow-y: scroll;
+        height: 33.6rem;
+        box-shadow: 0 .7rem 1.3rem 0 rgb(0, 0, 0, .1);
+        width: 90%;
+        margin: auto;
+        background: #ffffff;
+    }
+    .header-info {
+        display: none !important;
+    }
+    .md-button-wrapper {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        margin-right: 1rem;
+    }
+    .fa-angle-down {
+        display: none !important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 361px) {
+    .navbar {
+        padding-left: 4% !important;
+        padding-right: 4% !important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 769px) {
+    html {
+        font-size: 60.5%;
+    }
+    .features-left {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    .apply-left {
+        margin-bottom: 5rem;
+    }
+    .call-info-left::after {
+        display: none;
+    }
+    .call-info-left {
+        margin-bottom: 3.5rem;
+    }
+    .call-info-wrap {
+        text-align: center;
+    }
+    .call-info-left::after {
+        display: none;
+    }
+    .call-info-right {
+        flex-direction: column;
+    }
+    .call-info-icon {
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+    .call-info-num h2 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+    .value-img-wrap {
+        text-align: center;
+        margin-top: 4rem;
+    }
+    .services-tabs {
+        overflow-x: scroll;
+        flex-direction: column;
+        height: 138px;
+    }
+    .services-tabs .nav-link {
+        padding-bottom: 1.6rem;
+    }
+    .services-left {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    .team-content-row {
+        text-align: center;
+    }
+    .mb-md {
+        margin-bottom: 3rem;
+    }
+    .blog-item-last .blog-img {
+        text-align: center;
+    }
+    .blog-item-last .blog-info {
+        width: 55%;
+        text-align: left;
+        margin: auto;
+        margin-top: 2.5rem;
+    }
+    .blog-item-last {
+        margin-top: 3.5rem;
+    }
+    .footer-top {
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+    html {
+        font-size: 58.5%;
+    }
+    .header-content {
+        height: 100%;
+        padding-top: 16rem;
+        padding-bottom: 16rem;
+    }
+    .banner-content h1 {
+        font-size: 5rem;
+    }
+    .container-fluid {
+        padding: 0 1.6rem;
+    }
+    .about-left-content {
+        margin-bottom: 5rem;
+    }
+    .features-left {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    .mb-sm {
+        margin-bottom: 3rem;
+    }
+    .apply-sc-heading p {
+        width: 100%;
+        margin: auto;
+    }
+    .apply-left {
+        margin-bottom: 5rem;
+    }
+    .call-info-left::after {
+        display: none;
+    }
+    .call-info-left {
+        margin-bottom: 3.5rem;
+    }
+    .call-info-wrap {
+        text-align: center;
+    }
+    .call-info-left::after {
+        display: none;
+    }
+    .call-info-right {
+        flex-direction: column;
+    }
+    .call-info-icon {
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+    .call-info-num h2 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+    .value-img-wrap {
+        text-align: center;
+        margin-top: 4rem;
+    }
+    .services-tabs {
+        overflow-x: scroll;
+        flex-direction: column;
+        height: 134px;
+    }
+    .services-tabs .nav-link {
+        padding-bottom: 1.6rem;
+    }
+    .services-left {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    .carousel-item {
+        text-align: center;
+    }
+    .clients-info {
+        margin-bottom: 3rem;
+    }
+    .clients-img {
+        position: unset;
+    }
+    .clients-img img {
+        position: relative;
+    }
+    .clients-quate {
+        left: 35%;
+        bottom: 10%;
+    }
+    .mb-md {
+        margin-bottom: 4rem;
+    }
+    .team-content-row {
+        text-align: center;
+    }
+    .blog-item {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .blog-img img {
+        width: 100%;
+    }
+    .blog-item .blog-info {
+        text-align: left;
+    }
+    .footer-top {
+        padding-top: 7rem;
+        padding-bottom: 2rem;
+    }
+    .footer-widget {
+        margin-bottom: 3rem;
+    }
+    .back_to_top {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    html {
+        font-size: 55.5%;
+    }
+    .container-fluid {
+        padding: 0 1.8rem;
+    }
+    .container {
+        padding: 0 1.8rem;
+    }
+    .img-fluid {
+        width: 100%;
+    }
+    .mt {
+        margin-top: 6rem;
+    }
+    .mb-sm {
+        margin-bottom: 3rem;
+    }
+    .section-heading h2 {
+        font-size: 3rem;
+    }
+    .navbar-brand img {
+        width: 75%;
+    }
+    .navigation {
+        top: 59px;
+    }
+    .header-search {
+        display: none;
+    }
+    .md-button-wrapper {
+        margin-right: 1.5rem;
+    }
+    .header-content {
+        height: 110vh;
+    }
+    .banner-content h1 {
+        font-size: 3.5rem;
+    }
+    .header-social {
+        display: none;
+    }
+    #banner {
+        height: auto;
+    }
+    .header-content {
+        height: 100%;
+        padding-top: 13rem;
+        padding-bottom: 13rem;
+    }
+    .features-sc {
+        text-align: center;
+    }
+    .features-sc h2 {
+        font-size: 3rem;
+    }
+    .apply-sc-heading h2 {
+        font-size: 3rem;
+    }
+    .apply-sc-heading p {
+        width: 100%;
+    }
+    .apply-left ul::before {
+        height: calc(100% - 20%);
+    }
+    .apply-left h3 {
+        font-size: 3rem;
+    }
+    .call-info-left {
+        font-size: 3rem;
+    }
+    .call-info-wrap {
+        text-align: center;
+    }
+    .call-info-left::after {
+        display: none;
+    }
+    .call-info-right {
+        flex-direction: column;
+    }
+    .call-info-icon {
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+    .call-info-num h2 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+    .services-tabs {
+        overflow-x: scroll;
+        flex-direction: column;
+        height: 128px;
+    }
+    .services-tabs .nav-link {
+        padding-bottom: 1.6rem;
+    }
+    .services-left {
+        margin-bottom: 3rem;
+    }
+    .carousel-inner {
+        text-align: center;
+    }
+    .clients-img {
+        margin-top: 3rem;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .team-member {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .team-member .team-info {
+        text-align: left;
+    }
+    .team-member:last-child {
+        margin-bottom: 0;
+    }
+    .blog-item {
+        margin-bottom: 3rem;
+    }
+    .blog-info h3 a {
+        font-size: 2.2rem;
+    }
+    .footer-top {
+        padding-top: 7rem;
+        padding-bottom: 2rem;
+    }
+    .footer-widget {
+        margin-bottom: 3rem;
+    }
+    .back_to_top {
+        display: none;
+    }
+}
+
+@media (max-width: 321px) {
+    .header-btn {
+        display: none;
+    }
+    #banner {
+        height: 88vh;
+    }
+    .header-content {
+        height: 100vh;
+    }
+    .banner-content h1 {
+        font-size: 3rem;
+    }
+    .about-info-inner h2 {
+        font-size: 3rem;
+    }
+    .about-info-inner p {
+        font-size: 0.8rem;
+    }
+}

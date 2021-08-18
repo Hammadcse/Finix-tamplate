@@ -12,38 +12,62 @@
     <!-- Flaticon -->
     <link rel="stylesheet" type="text/css" href="assets/images/choose icons/font/flaticon.css" />
     <!-- Font awesome  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <!-- Bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
     <!-- Custom css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid-lg">
         <!-- Header starts here -->
         <header id="home">
             <nav class="navbar navbar-expand-lg navbar-light header-nav fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#home">
-                        <img src="assets/images/logo.png" alt="">
+                        <img src="assets/images/logo.png" alt="logo">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="md-button-wrapper">
+                        <div class="header-search d-lg-none">
+                            <span><i class="fas fa-search"></i></span>
+                        </div>
+                        <div class="header-btn d-lg-none">
+                            <a href="#" class="btn btn-primary">
+                                Apply Now
+                            </a>
+                        </div>
+                    </div>
+                    <div class="nav-toggler">
+                        <span></span>
+                    </div>
+                    <div class="navigation">
                         <ul class="primary-menu navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home <i class="fas fa-angle-down"></i></a>
-                                <ul>
+                                <a class="nav-link active dropdown-btn" aria-current="page" href="#">Home 
+                                    <span><i class="d-lg-inline-block fas fa-angle-down"></i></span>
+                                    <span><i class="d-inline-block d-lg-none arrowChange fas fa-plus"></i></span>
+                                </a>
+                                <ul class="submenu">
                                     <li class="nav-item"><a class="nav-link" href="#">Home1</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">Home2</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">Home3</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pages <i class="fas fa-angle-down"></i></a>
-                                <ul>
+                                <a class="nav-link dropdown2" href="#">Pages 
+                                    <span><i class="d-lg-inline-block fas fa-angle-down"></i></span>
+                                    <span><i class="fas fa-plus d-lg-none arrowChange2"></i></span>
+                                </a>
+                                <ul class="submenu2">
                                     <li class="nav-item"><a href="#" class="nav-link">About</a></li>
                                     <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
                                     <li class="nav-item"><a href="#" class="nav-link">Faq</a></li>
@@ -51,7 +75,11 @@
                                     <li class="nav-item"><a href="#" class="nav-link">Loan Calculator</a></li>
                                     <li class="nav-item"><a href="#" class="nav-link">Apply now</a></li>
                                     <li class="nav-item"><a href="#" class="nav-link">Testimonials</a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link">project <i class="fas fa-angle-down"></i></a>
+                                    <li class="nav-item"><a href="#" class="nav-link dropdown3">project
+                                        <span><i class="d-lg-inline-block fas fa-angle-down"></i>
+                                        <span><i class="d-lg-none arrowChange3 fas fa-plus"></i></span>
+                                        </span>
+                                    </a>
                                         <ul class="multi-drop">
                                             <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
                                             <li class="nav-item"><a href="#" class="nav-link">Project Details</a></li>
@@ -63,8 +91,11 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Services <i class="fas fa-angle-down"></i></a>
-                                <ul>
+                                <a class="nav-link dropdown4" href="#">Services 
+                                    <span><i class="d-lg-inline-block fas fa-angle-down"></i></span>
+                                    <span><i class="arrowChange4 d-lg-none fas fa-plus"></i></span>
+                                </a>
+                                <ul class="submenu3">
                                     <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">Services Details</a></li>
                                 </ul>
@@ -82,6 +113,7 @@
                                 <a class="nav-link" href="#">Contact</a>
                             </li>
                         </ul>
+
                         <div class="header-info d-flex align-items-center">
                             <div class="header-search">
                                 <span><i class="fas fa-search"></i></span>
@@ -109,14 +141,14 @@
 
         <!-- Banner section starts -->
         <section id="banner">
-            <div class="container-fluid">
+            <div class="container-fluid banner-area">
                 <div class="row">
-                    <div class="header-content col-xxl-6 col-lg-6 col-lg-4 col-sm-12">
+                    <div class="header-content col-xxl-6 col-lg-8 col-md-10 col-sm-12">
                         <div class="banner-content">
                             <span class="d-block mb-3">We are here for</span>
                             <h1 class="my-4">We believe in those made to do more</h1>
                             <p class="mb-4">Loans are advantageous as a relatively inexpensive way of borrowing money. Start or grow your own business</p>
-                            <div class="mt-1 btn btn-primary">View more</div>
+                            <div class="btn btn-primary hero-btn">View more</div>
                         </div>
                     </div>
                 </div>
@@ -138,12 +170,13 @@
     <div class="partner-wrap">
         <div class="container-fluid">
             <section class="customer-logos slider ptb-100">
-                <div class="slide"><img src="assets/images/partner/image1.png"></div>
-                <div class="slide"><img src="assets/images/partner/image2.png"></div>
-                <div class="slide"><img src="assets/images/partner/image3.png"></div>
-                <div class="slide"><img src="assets/images/partner/image4.png"></div>
-                <div class="slide"><img src="assets/images/partner/image5.png"></div>
-                <div class="slide"><img src="assets/images/partner/image3.png"></div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item"><img class="img-fluid" src="assets/images/partner/image1.png" alt="partner-img"></div>
+                    <div class="item"><img src="assets/images/partner/image2.png" alt="partner-img"></div>
+                    <div class="item"><img src="assets/images/partner/image3.png" alt="partner-img"></div>
+                    <div class="item"><img src="assets/images/partner/image4.png" alt="partner-img"></div>
+                    <div class="item"><img src="assets/images/partner/image5.png" alt="partner-img"></div>
+                </div>
             </section>
         </div>
     </div>
@@ -166,7 +199,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-6 col-lg-6 col-md-6 col-12">
+                <div class="col-xxl-6 col-lg-6 col-md-6 col-12 mt">
                     <div class="about-content section-heading">
                         <span>About company</span>
                         <h2>We have been working very efficiently with loan and funding for 25 years.</h2>
@@ -202,10 +235,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-6 col-lg-6 col-12">
+                <div class="col-xxl-6 col-lg-6 col-12 mt">
                     <div class="features-right">
-                        <div class="row g-4">
-                            <div class="col-lg-6">
+                        <div class="row g-5">
+                            <div class="col-lg-6 col-md-6">
                                 <div class="features-card text-center mt-35">
                                     <div class="fr-icon">
                                         <i class="flaticon-guarantee"></i>
@@ -215,7 +248,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-6">
                                 <div class="features-card text-center">
                                     <div class="fr-icon">
                                         <i class="flaticon-speed"></i>
@@ -225,7 +258,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-6 mb-sm">
                                 <div class="features-card text-center">
                                     <div class="fr-icon">
                                         <i class="flaticon-reliability"></i>
@@ -235,7 +268,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-6">
                                 <div class="features-card text-center mtn-35">
                                     <div class="fr-icon">
                                         <i class="flaticon-user-experience"></i>
@@ -286,7 +319,7 @@
                         <a class="btn btn-primary" href="#">Apply now</a>
                     </div>
                 </div>
-                <div class="col-xxl-6 col-lg-6 col-12">
+                <div class="col-xxl-6 col-lg-6 col-12 mt">
                     <div class="apply-rigth">
                         <div class="apply-right-heading">
                             <span>Calculate your rate</span>
@@ -342,7 +375,7 @@
                     <div class="col-xxl-7 col-lg-7 col-12">
                         <h2 class="call-info-left">We are here to help your business Call to discuss your Solution</h2>
                     </div>
-                    <div class="col-xxl-5 col-lg-5 col-12">
+                    <div class="col-xxl-5 col-lg-5 col-12 mt">
                         <div class="call-info-right">
                             <a class="call-info-icon" href="tel:+1 (514) 312-5678">
                                 <i class="fas fa-phone-volume"></i>
@@ -405,7 +438,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-6 col-lg-6 col-12">
+                <div class="col-xxl-6 col-lg-6 col-12 mt">
                     <div class="value-img-wrap">
                         <img class="img-fluid" src="assets/images/company2.png" alt="image">
                     </div>
@@ -468,7 +501,7 @@
             </div>
 
             <div class="row services-tab-content">
-                <div class="col-lg-12">
+                <div class="col-lg-12 mt">
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="ss" role="tabpanel" aria-labelledby="ss-tab">
                             <div class="row tab-content-row">
@@ -724,7 +757,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="clients-img">
-                                            <img src="assets/images/clients/man.png" alt="clients-img">
+                                            <img src="assets/images/clients/man.png" class="img-fluid" alt="clients-img">
                                             <i class="fas fa-quote-right clients-quate"></i>
                                         </div>
                                     </div>
@@ -742,7 +775,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="clients-img">
-                                            <img src="assets/images/clients/man.png" alt="clients-img">
+                                            <img src="assets/images/clients/man.png" class="img-fluid" alt="clients-img">
                                             <i class="fas fa-quote-right clients-quate"></i>
                                         </div>
                                     </div>
@@ -765,7 +798,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <div class="row team-content-row">
-                <div class="col-lg-3 team-member">
+                <div class="col-lg-3 col-md-6 col-sm-6 team-member mb-md">
                     <div class="team-img-wrap">
                         <img src="assets/images/team/image1.jpg" class="img-fluid" alt="team-img">
                         <ul class="team-social">
@@ -780,7 +813,7 @@
                         <span>Managing Director</span>
                     </div>
                 </div>
-                <div class="col-lg-3 team-member">
+                <div class="col-lg-3 col-md-6 col-sm-6 team-member mb-md">
                     <div class="team-img-wrap">
                         <img src="assets/images/team/image2.jpg" class="img-fluid" alt="team-img">
                         <ul class="team-social">
@@ -795,7 +828,7 @@
                         <span>Chief Executive Officer</span>
                     </div>
                 </div>
-                <div class="col-lg-3 team-member">
+                <div class="col-lg-3 col-md-6 col-sm-6 team-member">
                     <div class="team-img-wrap">
                         <img src="assets/images/team/image3.jpg" class="img-fluid" alt="team-img">
                         <ul class="team-social">
@@ -810,7 +843,7 @@
                         <span>Technology Officer</span>
                     </div>
                 </div>
-                <div class="col-lg-3 team-member">
+                <div class="col-lg-3 col-md-6 col-sm-6 team-member">
                     <div class="team-img-wrap">
                         <img src="assets/images/team/image4.jpg" class="img-fluid" alt="team-img">
                         <ul class="team-social">
@@ -839,7 +872,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="blog-item">
                         <div class="blog-img">
                             <a href="#"><img src="assets/images/blog/image1.jpg" class="img-fluid" alt="blog-img"></a>
@@ -851,7 +884,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="blog-item">
                         <div class="blog-img">
                             <a href="#"><img src="assets/images/blog/image2.jpg" class="img-fluid" alt="blog-img"></a>
@@ -863,8 +896,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="blog-item">
+                <div class="col-lg-4 col-md-12">
+                    <div class="blog-item mb-0 blog-item-last">
                         <div class="blog-img">
                             <a href="#"><img src="assets/images/blog/image3.jpg" class="img-fluid" alt="blog-img"></a>
                         </div>
@@ -885,9 +918,9 @@
         <div class="container">
             <div class="footer-top pt-100 pb-70">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="footer-widget">
-                            <a href="#"><img src="assets/images/logo2.png" alt="footer-logo" class="img-fluid footer-logo"></a>
+                            <a href="#"><img src="assets/images/logo2.png" alt="footer-logo" class="footer-logo"></a>
                             <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="footer-social">
                                 <ul class="social-list d-flex">
@@ -900,7 +933,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="footer-widget">
                             <h3>Quick Links</h3>
                             <ul class="footer-link">
@@ -912,7 +945,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="footer-widget">
                             <h3>Other Resources</h3>
                             <ul class="footer-link">
@@ -924,7 +957,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="footer-widget">
                             <h3>Contact Us</h3>
                             <div class="footer-contact">
@@ -967,17 +1000,38 @@
     </footer>
     <!-- Footer section ends -->
 
-
-
     <!-- Jquery -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
-    <!-- Partner slider js(slick slider) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js "></script>
+    <script src="assets/Js/jquery-3.6.0.min.js"></script>
+    <!-- Owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Custom js -->
     <script src="assets/Js/index.js "></script>
     <!-- Boootstrap5 js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js " integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js " integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc " crossorigin="anonymous "></script>
+
+    <script>
+        $(document).ready(function() {
+            if ($(window).width() < 992) {
+                $('.dropdown-btn').click(function() {
+                    $('.submenu').slideToggle(300);
+                    $('.arrowChange').toggleClass('fa-minus').toggleClass('fa-plus');
+                });
+                $('.dropdown2').click(function() {
+                    $('.submenu2').slideToggle(300);
+                    $('.arrowChange2').toggleClass('fa-minus').toggleClass('fa-plus');
+                });
+                $('.dropdown3').click(function() {
+                    $('.multi-drop').slideToggle(300);
+                    $('.arrowChange3').toggleClass('fa-minus').toggleClass('fa-plus');
+                });
+                $('.dropdown4').click(function() {
+                    $('.submenu3').slideToggle(300);
+                    $('.arrowChange4').toggleClass('fa-minus').toggleClass('fa-plus');
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>
